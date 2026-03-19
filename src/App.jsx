@@ -108,7 +108,7 @@ export default function App() {
     <div className="page">
       <div className="container">
         <section className="panel">
-          <h1 className="title">IELTS Task 1 Preposition Trainer</h1>
+          <h1 className="title">IELTS Task 1: Preposition for Line Graphs</h1>
           <p className="subtitle">
             Practice preposition patterns for line graphs and other time-based charts.
           </p>
