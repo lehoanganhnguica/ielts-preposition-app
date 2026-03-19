@@ -35,9 +35,6 @@ function FeedbackBox({ isCorrect, selected, question }) {
   return (
     <div className={`feedback-box ${isCorrect ? 'correct' : 'wrong'}`}>
       <div className="feedback-title">{isCorrect ? 'Correct' : 'Not quite'}</div>
-      <div className="feedback-text">
-        <strong>Pattern:</strong> {question.pattern.replaceAll('_', ' ')}
-      </div>
       <div className="feedback-text">{explanation}</div>
       {!isCorrect && (
         <div className="feedback-text">
